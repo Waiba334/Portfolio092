@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="animations.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content animate-on-scroll" data-animation="slide-right">
+        <h1>Hi, I'm <span class="highlight">Bishal Waiba</span></h1>
+        <h2>Software Engineer</h2>
+        <p></p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image animate-on-scroll" data-animation="slide-left">
+        <div class="profile-img-placeholder-1">
+          <img src="me.png" alt="Bishal Waiba" style="height: 260px; width: 220px; " />
+        </div>
+      </div>
+    </div>
+  </section> 
+  <hr class="section-divider">
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">About Me</h2>
+      <div class="about-content">
+        <div class="about-text animate-on-scroll transform-piece transform-left">
+          <p>Hello! I'm Bishal a dedicated software engineer with a passionated in web development with a keen eye for design and a love for creating intuitive, responsive websites. Currently pursuing a degree in SWE. 
+          I am eager to apply my technical skills to create innovative digital solutions.</p>
+          <p>Beyond my technical expertise, I aim to bring a unique perspective to my work, having a background in commerce and economics. This combination allows me to understand the business implications in projects and develop solutions that not only meet technical requirements but also align with organizational goals.</p>
+          <p>I believe in clean code, user-centered design, and continuous learning. When I'm not coding, you can find me hiking, reading, or experimenting with new recipes in the kitchen.</p><br>
+          <a href="#" class="btn btn-outline">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider">
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-category animate-on-scroll" data-animation="zoom-in">
+          <h3>Frontend</h3>
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+          </ul>
+        </div>
+        <div class="skill-category animate-on-scroll" data-animation="zoom-in">
+          <h3>Tools & Software</h3>
+          <ul class="skill-list">
+            <li>Git</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Adobe AE</li>
+            <li>Netlify</li>
+          </ul>
+        </div>
+        <div class="skill-category animate-on-scroll" data-animation="zoom-in">
+          <h3>Soft Skills</h3>
+          <ul class="skill-list">
+            <li>Problem Solving</li>
+            <li>Communication</li>
+            <li>Team Collaboration</li>
+            <li>Time Management</li>
+            <li>Adaptability</li>
+          </ul>
+        </div>
+      </div> 
+    </div>
+  </section>
+  <hr class="section-divider">
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">My Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card animate-on-scroll transform-piece transform-left">
+          <div class="project-image-1"></div>
+          <div class="project-info">
+            <h3>E-commerce Website Design</h3>
+            <p>A fully responsive e-commerce platform with product filtering, cart functionality, and checkout process.</p>
+            <div class="project-tags">
+              <span>Figma</span>
+              <span>Canvas Colors</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.figma.com/proto/grEwXQFVc0tSidDuSFvOgo/GROUP-1-E-COM?node-id=11-11&p=f&t=ZtrbTFVQ9Sm7chG0-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A11" class="btn btn-sm">View Live</a>
+              <a href="https://www.figma.com/design/grEwXQFVc0tSidDuSFvOgo/GROUP-1-E-COM?node-id=0-1&t=xJaEG78GotCUTRkX-1" class="btn btn-sm btn-outline">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card animate-on-scroll transform-piece transform-bottom">
+          <div class="project-image-2"></div>
+          <div class="project-info">
+            <h3>Portfolio Design</h3>
+            <p>A clean, modern portfolio website designed to showcase creative work with smooth animations.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">View Live</a>
+              <a href="#" class="btn btn-sm btn-outline">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card animate-on-scroll transform-piece transform-right">
+          <div class="project-image-3"></div>
+          <div class="project-info">
+            <h3>Coming soon</h3>
+            <p>More Project will be updated soon So stay updated</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">View Live</a>
+              <a href="#" class="btn btn-sm btn-outline">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider">
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+      <div class="contact-container">
+        <div class="contact-info animate-on-scroll transform-piece transform-left">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out to me through any of the following channels:</p>
+          <ul class="contact-list">
+            <li><i class="fas fa-envelope"></i> waibasamuel5@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +975 17-790-441</li>
+            <li><i class="fas fa-map-marker-alt"></i> Thimphu, Bhutan</li>
+          </ul>
+          <div class="social-links">
+            <a href="https://github.com/Waiba334" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="www.linkedin.com/in/samuel-waiba-345082331" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/sam_samuel092?igsh=MXVtZzlleTE0cXVhbQ%3D%3D&utm_source=qr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact-form animate-on-scroll transform-piece transform-right">
+          <h3>Send Me a Message</h3>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary-1">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider">
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Bishal Waiba. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
